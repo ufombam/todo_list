@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    body {
+        font-family: 'Raleway', sans-serif;
+        background-color: #ddc7c550;
+    }
+}
+
+::selection {
+    background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+
+#add-button {
+        position: relative ;
+        left: 2%;
+        width: 10vw;
+        margin: 0;
+        background-color: #3659f4;
+        border: 1px solid #003afa;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        height: 5vh;
+    }
+    
+    #input {
+        position: relative ;
+        left: 2%;
+        width: 80vw;
+        background-color: #e2e5f5;
+        border: 1px solid blue;
+        border-radius: 5px;
+        color: black;
+        margin-bottom: 15px;
+        height: 5vh;
+    }
+
+    #input:focus {
+        outline: none;
+    }
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+li {
+    background-color: #ffffff;
+    height: 5vh;
+    color: black;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 0px 2px 2px 5px;
+    margin-bottom: 2px;
+    width: 94vw;
+    border-radius: 5px;
+    button {
+        float: right;
+        height: 5vh;
+        border: none;
+        border-radius: 0px 5px 5px 0px;
+        width: 4.5vw;
+        color: white inset;
+        background-color: #a9b7f5;
+        z-index: 1;
+    }
+    
+    button:hover {
+        background-color: #f50808;
+    }
+}
+
+li:hover {
+    background-color: #dfdfeb;
+    transition: 1s;
+}
+
+/* When 
+clicked on, add a background color and strike out text */
+ul 
+li.checked {
+    background: rgb(196, 214, 241);
+    color: rgb(73, 52, 52);
+    text-decoration: line-through;
+}
+
+header {
+    height: 20vh;
+    background-color: #3659f4;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+    margin-bottom: 2px;
+    h1 {
+        font-size: 1.2rem;
+    }
+  }
+
+    main {
+        border-top: 1px solid black;
+        height: 60vh;
+        overflow: auto;
+    }
+
+footer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 16vh;
+    border-top: 1px solid black;
+}
