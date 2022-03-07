@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
+$color-code1: #3659f4;
+
 * {
     box-sizing: border-box;
     body {
@@ -17,8 +19,8 @@
         left: 2%;
         width: 10vw;
         margin: 0;
-        background-color: #3659f4;
-        border: 1px solid #003afa;
+        background-color: $color-code1;
+        border: 1px solid $color-code1;
         color: white;
         border-radius: 5px;
         margin-bottom: 15px;
@@ -89,7 +91,7 @@ li.checked {
 
 header {
     height: 20vh;
-    background-color: #3659f4;
+    background-color: $color-code1;
     padding: 30px 40px;
     color: white;
     text-align: center;
